@@ -1,3 +1,4 @@
+
 # Autonomous Insurance Claim Investigation — Starter
 
 Learning prototype for insurance-document OCR and AI-assisted human review.
@@ -43,3 +44,6 @@ curl -X POST http://127.0.0.1:8000/claims/analyze -F "claim_id=CLM-1001" -F "fil
 This is a prototype, not a validated fraud-detection system. OCR and keyword indicators can be wrong. Never automatically deny or approve a claim based on this output. A qualified human must verify the original evidence. Add authentication, authorization, encryption, audit logging, privacy/retention controls, dataset validation, bias testing, and regulatory review before real deployment.
 
 OCR is English-only by default. Handwriting and poor scans require a stronger document AI model and benchmarking.
+=======
+# AI-Powered-Insurance-Claim-Investigation-System
+
